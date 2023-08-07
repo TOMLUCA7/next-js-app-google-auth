@@ -1,5 +1,12 @@
-import Image from "next/image";
+import SignInBtn from "@components/SignInBtn";
+import UserInfo from "@components/UserInfo";
 
 export default function Home() {
-  return <h1>hello evryone</h1>;
+  return (
+    <>
+      <div>
+        <UserInfo />
+      </div>
+    </>
+  );
 }
